@@ -1,0 +1,514 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li,button{
+    margin-left: 75px;
+    list-style: none;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+nav ul button{
+    margin-left: 75px;
+} 
+
+
+.event{
+    width: 60%;
+    margin: auto;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #18191F;
+    width: 84px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.owl-carousel h1{
+   
+   color: rgb(255, 255, 255);
+   font-family: 'Raleway';
+   padding-top: 235px;
+   padding-left: 70px;
+}
+
+
+.owl-carousel{
+    height: 495px;
+top: 50px;
+width: 80%;
+margin: auto;
+}
+
+
+.background{
+    background: url(../img/bg.png);
+    background-size: cover;
+    position: top center;
+    /* width: 100%;
+    height: 53.4vh; */
+width: 100%;
+height: 60vh;
+
+
+}
+
+
+
+.owl-dots {
+    text-align: center;
+}
+.owl-dots button {
+    width: 9px;
+    height: 9px;
+    background: #D1D1D1 !important;
+    margin-left: 20px;
+   
+}
+
+
+.owl-dots button.active{
+    background: black !important;
+    
+}
+
+
+.head-slider{
+    width: 70%;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.second-sec{
+    width: 70%;
+    margin: auto;
+    margin-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.icon-add{
+    display: flex;
+    align-items: center;
+margin-top: 69px;
+
+}
+
+.icon-add p span{
+ margin-right: 80px;
+}
+
+.icon-add p{
+   margin: 15px 6px;
+    
+}
+
+
+.icon-add img{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icon-add img:hover{
+    width: 40px;
+}
+
+
+.second-img{
+    width: 100%;
+}
+
+.background h1{
+    font-weight: bold;
+}
+
+.col-lg-6 h1{
+    font-weight: 700;
+}
+
+
+.col-lg-6 p{
+    font-weight: 500;
+}
+
+.container{
+    margin-bottom: 26px;
+}
+
+
+.add-member{
+    width: 70%;
+    margin: auto;
+}
+
+#add-box{
+    border: 1px solid black;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#add-box h2{
+    font-size: 20px;
+    padding-left: 20px;
+    
+  padding-top: 10px;
+}
+
+
+#add-box h2 span{
+    cursor: pointer;
+   
+   
+}
+
+
+#add-box h2 span:hover{
+font-size: 15px;
+text-shadow: 0 0 5px black;
+}
+
+.content-add{
+   
+    width: 321px;
+    height: 210px;
+}
+.content-add h1{
+    margin: 15px 0;
+    font-size: 23px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.content-add p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+#image4{
+    margin-left: -25px;
+}
+
+#image5{
+    margin-left: -25px;
+}
+
+img{
+    cursor: pointer;
+    
+}
+
+
+
+#event{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#event:hover{
+transform: translateY(-10%);
+
+}
+
+.content-add h1:hover{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-left: 25px;
+}
+
+#image .image1,.image2,.image3,.image4,.image5{
+    transition: 0.5s;
+   
+}
+
+
+#image{
+    padding-bottom: 4rem;
+}
+
+.image1:hover{
+    transform: translateY(-10%);
+    filter: grayscale(50%);
+}
+
+.image2:hover{
+    transform: translateX(10%);
+    filter: grayscale(50%);
+    
+}
+
+
+.image3:hover{
+    transform: translateX(-10%);
+  
+    filter: grayscale(50%);
+    
+}
+
+.image4:hover{
+    transform: translateX(-10%);
+  
+    filter: grayscale(50%);
+    
+}
+
+.image5:hover{
+    transform: translateX(-10%);
+  
+    filter: grayscale(50%);
+    
+}
+
+
+.footer{
+    width: 100%;
+  height: 100%;
+    margin: auto;
+    background: #18191F;
+    padding-bottom: 26px;
+
+}
+
+
+.ft-icon-add{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.mail-box{
+    margin-top: 16px;
+  display: flex;
+ padding-top: 9px;
+ padding-bottom: 7px;
+ padding-left: 20px;
+ padding-right: 20px;
+justify-content: space-between;
+border: 1px solid white;
+}
+
+.mail-box h6{
+
+    color: white;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.mail-box span{
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+
+.mail-box span:hover{
+    color: aqua;
+    transform: translateX(-10%);
+}
+
+#foot{
+    padding-top: 3%;
+}
+
+.footer h3{
+    color: white;
+   
+}
+
+
+.footer ul{
+    margin-top: 1rem;
+}
+
+.footer ul li{
+    list-style: none;
+margin-left: -11px;
+
+}
+
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+.footer ul li a:hover{
+    padding-left: 26px;
+}
+
+#icon{
+    margin-top: 1rem;
+}
+
+.ft-icon-add p{
+    margin-left: 12px;
+    padding-top: 20px;
+    color: white;
+}
+
+#nav ul{
+    display: flex;
+   float: right;
+   padding-top: 2rem;
+   align-items: center;
+  
+}
+
+#nav ul li{
+list-style: none;
+
+margin-left: 80px;
+
+
+}
+
+#nav ul li a{
+    color: black;
+font-weight: 500;
+text-decoration: none;
+}
+
+#nav ul li a:hover{
+    color: rgb(0, 102, 255);
+    
+}
+
+
+.res span,p{
+    color: #909090;
+}
+
+
+#click{
+    display: none;
+}
+
+
+.menu-btn{
+    display: none;
+}
+
+
+@media (max-width: 968px){
+    .footer{
+        height: 100%;
+        width: 100%;
+    }
+
+    #add-box{
+        margin-left: -26px;
+    }
+
+
+
+nav ul{
+    
+    width: 100%;
+display: block;
+opacity: .0;
+transition: 0.5s;
+}
+
+.menu-btn{
+    display: block;
+}
+
+#click:checked ~ ul{
+   opacity: 100;
+}
+
+
+#image img{
+    width: 450px;
+}
+
+
+
+
+}
+
+
+
+
+@media (max-width: 571px){
+    #event{
+        text-align: center;
+      
+      }
+      
+      
+      #event h1{
+        margin-right: -120px;
+      }
+      
+      
+      #event p{
+          margin-right: -120px;
+        }
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.reveal{
+ position: relative;   
+ transform: translateY(150px);
+ opacity: 0;
+ transition: 0.5s;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
